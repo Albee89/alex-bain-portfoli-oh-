@@ -1,0 +1,15 @@
+.about {
+    background-color: #ff99cc; /* Pink background */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px 20px; /* Padding for the button */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .about:hover {
+    background-color: #cc99ff; /* Lighter purple/lilac background on hover */
+  }

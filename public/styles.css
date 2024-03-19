@@ -1,0 +1,17 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.background-image {
+  background-image: url('valentine.png'); 
+  background-size: cover;
+  background-position: center;
+  width: 80%;
+  height: 80vh;
+  padding-left: 8cm;
+}
+
+h1 {
+font-size: 17px;
+color: lightskyblue;
+}

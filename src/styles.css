@@ -1,0 +1,12 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.background-image {
+  background-image: url('valentine.png'); /* Ensure 'candy.png' exists in the correct directory */
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh; 
+}
+

@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar-item {
+    width: 150px; 
+    height: 500px; 
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative; /* Add relative positioning */
+    cursor: pointer;
+  }
+  
+  /* Hide content by default */
+  .navbar-item .inner {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Show content on hover */
+  .navbar-item:hover .inner {
+    opacity: 1;
+  }
+  
+  .navbar-item:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .pink {
+    background-color: #ff99cc; /* Pink */
+  }
+  
+  .purple {
+    background-color: #cc99ff; /* Purple */
+  }
+  
+
+.navbar-item .inner h3 {
+    margin-top: 20px; /* Adjust spacing between heading and other content */
+  }
+  
+  .navbar-item .inner p {
+    margin: 10px; /* Adjust spacing for paragraphs */
+    font-size: 16px; /* Adjust font size for paragraphs */
+  }
+  
+  /* Additional styling for specific content */
+  .navbar-item.pink .inner {
+    background-color: #ff99cc; 
+  }
+  
+  .navbar-item.purple .inner {
+    background-color: #cc99ff; 
+  }
